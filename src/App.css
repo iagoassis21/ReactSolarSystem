@@ -1,3 +1,54 @@
 .App {
   text-align: center;
 }
+
+.header {
+  text-align: center;
+}
+
+.planetsContainer {
+  display: flex;
+  border: 2px solid black;
+  border-radius: 5px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 1%;
+}
+
+.containerTitle {
+  text-align: center;
+}
+
+.planetCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 5px;
+  max-width: 250px;
+  background-color:gray;
+}
+
+.planetName {
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.missionsContainer {
+  display: flex;
+  border: 2px solid black;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.missionsCard {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  margin: 1px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3px;
+}
