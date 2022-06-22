@@ -7,9 +7,9 @@
 }
 
 .planetsContainer {
-  display: flex;
   border: 2px solid black;
   border-radius: 5px;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 1%;
@@ -20,35 +20,35 @@
 }
 
 .planetCard {
-  display: flex;
-  flex-direction: column;
+  background-color: gray;
   border: 2px solid black;
   border-radius: 5px;
+  display: flex;
+  flex-direction: column;
   margin: 5px;
   max-width: 250px;
-  background-color:gray;
 }
 
 .planetName {
-  display: flex;
-  justify-content: center;
   border-radius: 5px;
+  display: flex;
   font-size: 18px;
+  justify-content: center;
 }
 
 .missionsContainer {
-  display: flex;
   border: 2px solid black;
+  display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
 
 .missionsCard {
+  align-items: center;
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
-  border: 2px solid black;
-  margin: 1px;
-  align-items: center;
   justify-content: space-between;
+  margin: 1px;
   padding: 3px;
 }
